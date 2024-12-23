@@ -4,14 +4,14 @@ import { FaReddit } from "react-icons/fa";
 function Header() {
   return (
     <div className="navbar bg-base-100">
-      <div className="flex-1 gap-4">
+      <div className="flex-1 gap-3 mx-8">
         <FaReddit className="text-blue-500 text-4xl hover:text-blue-700 hover:scale-110 transition-transform duration-300" />
         <span className="text-xl font-semibold">
           <span className="text-blue-500">Reddit</span>
           <span className="text-white">Minimal</span>
         </span>
       </div>
-      <div className="flex-none gap-2">
+      <div className="flex-none gap-3 mx-10">
         <div className="form-control">
           <input
             type="text"
