@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { fetchPosts } from "../services/redditApi"; // Import the API function
+import { fetchPosts } from "../services/reddit"; // Import the API function
 
 function RedditPosts() {
   const [posts, setPosts] = useState([]);
